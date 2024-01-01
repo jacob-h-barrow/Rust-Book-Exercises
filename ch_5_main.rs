@@ -50,6 +50,10 @@ impl ParkingSpots {
     }
 }
 
+////////////////////////////
+/////// Client Code ////////
+////////////////////////////
+
 struct ParkingSystem {
     lot: Vec<ParkingSpots>,
 }
@@ -70,6 +74,9 @@ impl ParkingSystem {
         self.lot[(car_type - 1) as usize].add_car()
     }
 }
+////////////////////////////
+/////// Client Code ////////
+////////////////////////////
 
 fn main() {
     // Pun intended
